@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Teste</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .Form_confirmation-container__uz1Ku, .Form_form-container__2xHNR {
+      display: -moz-box;
+      display: flex;
+      -moz-box-align: center;
+      align-items: center;
+      -moz-box-pack: center;
+      justify-content: center;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      flex-direction: column;
+    }
+    .Form_form-container__2xHNR {
+      height: auto;
+      grid-gap: 10px;
+      gap: 10px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    body, html {
+      padding: 0;
+      margin: 0;
+      font-family: Inter, Roboto, sans-serif;
+      background: #f0f0f5;
+    }
+    .Button_button__2Lgpr {
+      width: 90%;
+      height: 77px;
+      background: #023e8a;
+      border-radius: 5px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 30px;
+      color: #fff;
+      border: none;
+      max-width: 553px;
+      cursor: pointer;
+    }
+    .Input_input__X5b8W {
+      width: 90%;
+      height: 77px;
+      padding: 10px 20px;
+      background: #fff;
+      border: 3px solid #ededf1;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 25px;
+      color: #535353;
+      outline: none;
+      max-width: 553px;
+    }
+
+    .Input_input__X5b8W {
+    width: 90%;
+    height: 77px;
+    padding: 10px 20px;
+    background: #fff;
+    border: 3px solid #ededf1;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #535353;
+    outline: none;
+    max-width: 553px
+}
+
+.Input_input__X5b8W:focus {
+    border: 3px solid #023e8a
+}
+
+.Input_input__X5b8W::-webkit-input-placeholder {
+    color: #b6b6b6
+}
+
+.Input_input__X5b8W::-moz-placeholder {
+    color: #b6b6b6
+}
+
+.Input_input__X5b8W:-ms-input-placeholder {
+    color: #b6b6b6
+}
+
+.Input_input__X5b8W::placeholder {
+    color: #b6b6b6
+}
+
+.Input_disabled-input__3ZRF_ {
+    width: 90%;
+    height: 77px;
+    padding: 10px 20px;
+    background: #dcdcdc;
+    border: 3px solid #ededf1;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    outline: none;
+    max-width: 553px
+}
+
+.Input_disabled-input__3ZRF_::-webkit-input-placeholder {
+    color: #535353
+}
+
+.Input_disabled-input__3ZRF_::-moz-placeholder {
+    color: #535353
+}
+
+.Input_disabled-input__3ZRF_:-ms-input-placeholder {
+    color: #535353
+}
+
+.Input_disabled-input__3ZRF_::placeholder {
+    color: #535353
+}
+
+.Button_button__2Lgpr {
+    width: 90%;
+    height: 77px;
+    background: #023e8a;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+    border: none;
+    max-width: 553px;
+    cursor: pointer
+}
+
+.Button_button__2Lgpr:disabled {
+    background: #dcdcdc
+}
+
+.Table_table__1zT9E {
+    width: auto;
+    max-width: 500px
+}
+
+.Table_header-table__JjG2K {
+    background: #fff;
+    border: 2px solid #ededf1;
+    border-radius: 5px 5px 0 0;
+    padding: 20px;
+    width: 100%
+}
+
+.Table_buttons__2vAjp {
+    display: -moz-box;
+    display: flex;
+    grid-gap: 10px;
+    gap: 10px
+}
+
+.NavBar_ins-logo__23h3u {
+    cursor: pointer
+}
+
+.Label_subtitle__1olEO {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #535353;
+    margin: 0;
+    padding: 0;
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: start;
+    justify-content: flex-start;
+    text-align: left
+}
+
+.ConfirmationInput_input__9rZXb {
+    width: 90%;
+    height: 77px;
+    padding: 10px 20px;
+    background: #fff;
+    border: 3px solid #ededf1;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #535353;
+    outline: none;
+    max-width: 553px
+}
+
+.ConfirmationInput_input__9rZXb:focus {
+    border: 3px solid #023e8a
+}
+
+.ConfirmationInput_input__9rZXb::-webkit-input-placeholder {
+    color: #b6b6b6
+}
+
+.ConfirmationInput_input__9rZXb::-moz-placeholder {
+    color: #b6b6b6
+}
+
+.ConfirmationInput_input__9rZXb:-ms-input-placeholder {
+    color: #b6b6b6
+}
+
+.ConfirmationInput_input__9rZXb::placeholder {
+    color: #b6b6b6
+}
+
+.ConfirmationInput_disabled-input__3CsK_ {
+    width: 90%;
+    height: 77px;
+    padding: 10px 20px;
+    background: #dcdcdc;
+    border: 3px solid #ededf1;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 25px;
+    outline: none;
+    max-width: 553px
+}
+
+.ConfirmationInput_disabled-input__3CsK_::-webkit-input-placeholder {
+    color: #535353
+}
+
+.ConfirmationInput_disabled-input__3CsK_::-moz-placeholder {
+    color: #535353
+}
+
+.ConfirmationInput_disabled-input__3CsK_:-ms-input-placeholder {
+    color: #535353
+}
+
+.ConfirmationInput_disabled-input__3CsK_::placeholder {
+    color: #535353
+}
+
+.ConfirmationInput_input-container__12EzM {
+    display: -moz-box;
+    display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    grid-gap: 10px;
+    gap: 10px;
+    width: 100%
+}
+
+@media (min-width: 600px) {
+    .ConfirmationInput_disabled-input__3CsK_,.ConfirmationInput_input__9rZXb {
+        width:100%
+    }
+}
+
+.Form_form-container__2xHNR {
+    height: auto;
+    grid-gap: 10px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.Form_confirmation-container__uz1Ku,.Form_form-container__2xHNR {
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column
+}
+
+.Form_confirmation-container__uz1Ku {
+    width: 100%
+}
+
+.Form_confirmation-form-container__2K0SU {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.Form_confirmation-form-container__2K0SU,.Form_done__15c-S {
+    display: -moz-box;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    grid-gap: 10px;
+    gap: 10px
+}
+
+.Form_done__15c-S {
+    height: 80vh
+}
+
+.Form_form-confirmation-container__2t7JH {
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    grid-gap: 10px;
+    gap: 10px
+}
+
+.Form_button__67R7e,.Form_done-button__3zDjP,.Form_form-confirmation-container__2t7JH {
+    width: 100%;
+    display: -moz-box;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center
+}
+
+.Form_done-button__3zDjP {
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    margin-top: 20px;
+    grid-gap: 10px;
+    gap: 10px
+}
+
+@media (min-width: 910px) {
+    .Form_form-confirmation-container__2t7JH {
+        display:grid;
+        grid-template-columns: repeat(2,1fr)
+    }
+
+    .Form_confirmation-form-container__2K0SU {
+        width: 900px
+    }
+}
+
+  </style>
+  <script>
+    // Função para obter parâmetros da URL
+    function getQueryParams() {
+      const params = {};
+      window.location.search.slice(1).split('&').forEach(pair => {
+        const [key, value] = pair.split('=');
+        params[decodeURIComponent(key)] = decodeURIComponent(value);
+      });
+      return params;
+    }
+
+    // Função para preencher o formulário com os parâmetros da URL
+    function fillForm() {
+      const params = getQueryParams();
+      if (params.username) {
+        document.getElementById('username').textContent = params.username;
+      }
+      document.getElementById('course').textContent = 'Aula de Segurança Operacional (ASO)';
+    }
+
+    // Preencher o formulário quando a página carregar
+    window.onload = fillForm;
+
+    // Função para mostrar os dados preenchidos
+    function showData(event) {
+      event.preventDefault();
+      document.getElementById('resultUsername').textContent = document.getElementById('username').textContent;
+      document.getElementById('resultCourse').textContent = document.getElementById('course').textContent;
+      document.getElementById('resultPresentStudents').textContent = document.getElementById('presentStudents').value;
+      document.getElementById('resultApprovedStudents').textContent = document.getElementById('approvedStudents').value;
+      document.getElementById('resultComments').textContent = document.getElementById('comments').value;
+
+      const now = new Date();
+      const formattedDate = now.toISOString().slice(0, 19).replace('T', ' ');
+      document.getElementById('resultEntryTime').value = formattedDate;
+
+      document.getElementById('formSection').style.display = 'none';
+      document.getElementById('resultSection').style.display = 'block';
+    }
+
+    // Função para corrigir os dados
+    function editData() {
+      document.getElementById('formSection').style.display = 'block';
+      document.getElementById('resultSection').style.display = 'none';
+    }
+  </script>
+</head>
+<body>
+  <div class="container mt-5 Form_form-container__2xHNR">
+    <h1 class="mb-4">Formulário de Teste</h1>
+
+    <div id="formSection">
+      <form onsubmit="showData(event)">
+        <div class="form-group">
+          <label>Nome de Usuário:</label>
+          <p id="username" class="form-control-plaintext"></p>
+        </div>
+        <div class="form-group">
+          <label>Curso Aplicado:</label>
+          <p id="course" class="form-control-plaintext"></p>
+        </div>
+        <div class="form-group">
+          <label for="presentStudents">Nickname dos Alunos Presentes:</label>
+          <input type="text" class="form-control Input_input__X5b8W" id="presentStudents" name="presentStudents" required>
+        </div>
+        <div class="form-group">
+          <label for="approvedStudents">Nickname dos Alunos Aprovados:</label>
+          <input type="text" class="form-control Input_input__X5b8W" id="approvedStudents" name="approvedStudents" required>
+        </div>
+        <div class="form-group">
+          <label for="comments">Comentários:</label>
+          <textarea class="form-control Input_input__X5b8W" id="comments" name="comments" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary Button_button__2Lgpr">Enviar</button>
+      </form>
+    </div>
+
+    <div id="resultSection" style="display: none;">
+      <h2>Dados Preenchidos</h2>
+      <p><strong>Nome de Usuário:</strong> <span id="resultUsername"></span></p>
+      <p><strong>Curso Aplicado:</strong> <span id="resultCourse"></span></p>
+      <p><strong>Horário de Entrada:</strong> <input type="text" class="form-control Input_input__X5b8W" id="resultEntryTime" name="entryTime"></p>
+      <p><strong>Nickname dos Alunos Presentes:</strong> <span id="resultPresentStudents"></span></p>
+      <p><strong>Nickname dos Alunos Aprovados:</strong> <span id="resultApprovedStudents"></span></p>
+      <p><strong>Comentários:</strong> <span id="resultComments"></span></p>
+      <button class="btn btn-secondary" onclick="editData()">Corrigir</button>
+      <button class="btn btn-success Button_button__2Lgpr">Enviar</button>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
