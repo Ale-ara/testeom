@@ -81,7 +81,9 @@
       if (params.username) {
         document.getElementById('username').textContent = params.username;
       }
-      document.getElementById('course').textContent = 'Aula de Segurança Operacional (ASO)';
+      if (params.lesson) {
+        document.getElementById('lesson').textContent = params.lesson;
+      }
     }
 
     // Preencher o formulário quando a página carregar
@@ -91,7 +93,7 @@
     function showData(event) {
       event.preventDefault();
       document.getElementById('resultUsername').textContent = document.getElementById('username').textContent;
-      document.getElementById('resultCourse').textContent = document.getElementById('course').textContent;
+      document.getElementById('resultLesson').textContent = document.getElementById('lesson').textContent;
       document.getElementById('resultPresentStudents').textContent = document.getElementById('presentStudents').value;
       document.getElementById('resultApprovedStudents').textContent = document.getElementById('approvedStudents').value;
       document.getElementById('resultComments').textContent = document.getElementById('comments').value;
@@ -123,7 +125,7 @@
         </div>
         <div class="form-group">
           <label>Curso Aplicado:</label>
-          <p id="course" class="form-control-plaintext"></p>
+          <p id="lesson" class="form-control-plaintext"></p>
         </div>
         <div class="form-group">
           <label for="presentStudents">Nickname dos Alunos Presentes:</label>
@@ -144,7 +146,7 @@
     <div id="resultSection" style="display: none;">
       <h2>Dados Preenchidos</h2>
       <p><strong>Nome de Usuário:</strong> <span id="resultUsername"></span></p>
-      <p><strong>Curso Aplicado:</strong> <span id="resultCourse"></span></p>
+      <p><strong>Curso Aplicado:</strong> <span id="resultLesson"></span></p>
       <p><strong>Horário de Entrada:</strong> <input type="text" class="form-control Input_input__X5b8W" id="resultEntryTime" name="entryTime"></p>
       <p><strong>Nickname dos Alunos Presentes:</strong> <span id="resultPresentStudents"></span></p>
       <p><strong>Nickname dos Alunos Aprovados:</strong> <span id="resultApprovedStudents"></span></p>
@@ -154,7 +156,7 @@
     </div>
   </div>
 
-  <!-- Bootstrap JS and dependencies -->
+  <!-- Bootstrap JS e dependências -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
